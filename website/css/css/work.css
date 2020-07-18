@@ -1,0 +1,369 @@
+.card {
+    margin: 1rem auto;
+    position: relative; 
+  }
+  
+  .work-text {
+    z-index: 2;
+    position: absolute;
+    right: 0;
+    top: 40%;
+    left: 0;
+    font-size: 1.8em;
+    font-weight: bolder;
+    color: rgb(1, 8, 8);
+    background-color: rgba(192, 189, 189, 0.59);
+  }
+  .work{
+    z-index: 2;
+    position: absolute;
+    
+    top: 5%;
+ 
+    font-size: 2em;
+    font-weight: bolder;
+    color: rgb(34, 20, 224);
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Pacifico&family=Righteous&family=Roboto&family=Ubuntu&display=swap');
+
+
+.main-text
+{
+position: absolute;
+top: 40%;
+width: 96.66666666666666%;
+color: #FFF;
+}
+
+.staticContent h1 {
+margin-bottom: 2%;
+font-size: 50px;
+color: white;
+font-family: 'Righteous';
+}
+
+.staticContent p {
+font-size: 14px;
+color: white;
+font-family: 'Righteous';
+}
+
+
+.site-btn1 {
+background-color: black;
+color: white;
+
+}
+
+.site-btn2 {
+
+background-color: white;
+}
+
+.site-btn1, .site-btn2 {
+margin-top: 2%;
+}
+
+
+
+.section-1 .heading-1 {
+margin-top: 6%;
+}
+
+.section-1 .heading-2 {
+margin-bottom: 3%;
+font-size: 39px;
+}
+
+.section-1 .para-1 {
+width: 60%;
+margin-left: 20%;
+margin-bottom: 5%;
+}
+
+.section-1 .card-text, .para-1 {
+color: rgba(0, 0, 0, .59);
+}
+
+.section-1 {
+margin-bottom: 8%;
+}
+.section-1 #service_card {
+box-shadow: 0 0 10px rgba(0,0,0,0.2);
+height: 500px;
+}
+
+.section-2 .container-fluid {
+background-image: url(../../assets/img/section-2.jpg);
+background-size: cover;
+background-attachment: fixed;
+}
+
+.section-2 .heading-1 {
+margin-top: 20%;
+margin-bottom: 4%;
+font-family: 'Righteous';
+width: 80%;
+color: whitesmoke;
+}
+
+
+
+.section-1 .heading-1, .section-1 .heading-2 {
+font-size: 25px;
+}
+
+
+.wel{
+    margin: 1px;
+    background-color: rgba(220, 210, 210, 0.50);
+    border: none;
+}
+
+header {
+  position: relative;
+  background-color: black;
+  height: 30vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+  }
+  header video {
+    display: none;
+  }
+}
+
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+*{
+	padding:0;
+	margin:0;
+}
+
+html{
+	background-color: #eaf0f2;
+}
+
+body{
+	font:16px/1.6 Arial,  sans-serif;
+}
+
+header{
+	text-align: center;
+	padding-top: 100px;
+	margin-bottom:190px;
+}
+
+header h1{
+	font: normal 32px/1.5 'Open Sans', sans-serif;
+	color: #3F71AE;
+	padding-bottom: 16px;
+}
+
+header h2{
+	color: #F05283;
+}
+
+header span{
+	color: #3F71EA;
+}
+
+
+
+@media (max-height:800px){
+	footer { position: static; }
+	header { padding-top:40px; }
+}
+
+
+.footer-distributed{
+	background-color: #2c292f;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 50px 50px 60px 50px;
+	margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.footer-distributed .footer-left{
+	width: 30%;
+}
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+.footer-distributed .footer-left img{
+    width: 20%;
+    height: 5%;
+}
+
+.footer-distributed h3 span{
+	color:  #e0ac1c;
+}
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #e0ac1c;
+	text-decoration: none;;
+}
+
+.footer-distributed .footer-right{
+	width: 30%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+@media (max-width: 880px) {
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
